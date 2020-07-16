@@ -22,6 +22,14 @@
         >
           GitHub
         </a>
+        <a
+          href="localhost:3000/about"
+          target="_blank"
+          rel="noopener noreferrer"
+          class="button--green"
+        >
+          about
+        </a>
       </div>
     </div>
   </div>
