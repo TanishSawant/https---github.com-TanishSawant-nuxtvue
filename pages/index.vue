@@ -5,7 +5,20 @@
 </template>
 
 <script>
-export default {}
+export default {
+  head() {
+        return {
+            title: 'BienVenidos!',
+            meta: [
+                {
+                    hid: "Home",
+                    name: "Starter",
+                    content: "This is the landing Page"
+                }
+            ]
+        }
+    }
+}
 </script>
 
 <style>
