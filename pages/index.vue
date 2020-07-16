@@ -1,6 +1,6 @@
 <template>
   <div class="container">
-    <img class="imga" src="https://mextalki.com/LogoForWeb2.png" alt="" width="1000px" height="300px" srcset="">
+    <img class="imga" src="https://tse3.mm.bing.net/th?id=OIP.gaHwxo34nICH6VJCNNJpcwHaHa&pid=Api&P=0&w=300&h=300" alt="" width="300px" height="300px" srcset="">
     <div class="title">
       <h1>Sigue Aprendiendo Español</h1>
     </div>
@@ -39,7 +39,7 @@ export default {
 .imga {
   position: relative;
   bottom: 200px;
-  left: 100px;
+  left: 0px;
 }
 
 .title {
