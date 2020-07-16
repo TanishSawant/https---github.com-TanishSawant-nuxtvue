@@ -5,6 +5,8 @@
 </template>
 
 <script>
+import axios from "axios";
+
 export default {
     data() {
         return {
@@ -18,7 +20,14 @@ export default {
                 'Accept' : 'application/json'
             }
         }
-        const result = await axios.get("https://icanhazdadjoke.com/", config)
+        try {
+            const res = await axios.get("https://icanhazdadjoke.com/search", config)
+            this.jokes = res.data.results;
+            console.log(this.jokes)    
+        } catch (error) {
+            console.log(error)
+        }
+        
     },
 
     head() {
