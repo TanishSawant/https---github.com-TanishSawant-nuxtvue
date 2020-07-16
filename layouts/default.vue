@@ -25,6 +25,7 @@ html {
     'Helvetica Neue',
     Arial,
     sans-serif;
+    
   font-size: 16px;
   word-spacing: 1px;
   -ms-text-size-adjust: 100%;
@@ -52,6 +53,7 @@ ul {
   color: #3b8070;
   text-decoration: none;
   padding: 10px 30px;
+  margin-left: 10px;
 }
 
 .button--green:hover {

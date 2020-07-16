@@ -1,12 +1,31 @@
 <template>
-  <div class="container">
-    <img class="imga" src="https://tse3.mm.bing.net/th?id=OIP.gaHwxo34nICH6VJCNNJpcwHaHa&pid=Api&P=0&w=300&h=300" alt="" width="300px" height="300px" srcset="">
-    <div class="title">
-      <h1>Sigue Aprendiendo Español</h1>
+  <section class="container">
+    <div>
+      <img class="imga" src="https://tse3.mm.bing.net/th?id=OIP.gaHwxo34nICH6VJCNNJpcwHaHa&pid=Api&P=0&w=300&h=300" alt="" width="300px" height="300px" srcset="">
+      <div>
+      <h1 class="title">
+        Seguir aprendiendo español
+      </h1>
+      </div>
+      <div class="links">
+        <a
+          href="https://www.youtube.com/"
+          target="_blank"
+          class="button--green">YouTube</a>
+        <a
+          href="https://www.google.com"
+          target="_blank"
+          class="button--grey">Google</a>
+        <a
+          href="https://www.spanishdict.com/"
+          target="_blank"
+          class="button--green">SpanishDict</a>
+      </div>
     </div>
-  </div>
+  </section>
 </template>
 
+      
 <script>
 export default {
   head() {
@@ -29,43 +48,53 @@ export default {
   margin: 0 auto;
   min-height: 100vh;
   display: flex;
-  vertical-align: 0%;
   justify-content: center;
   align-items: center;
   text-align: center;
-  flex-direction: column;
 }
 
 .imga {
   position: relative;
-  bottom: 200px;
+  bottom: 170px;
   left: 0px;
 }
 
+
+
 .title {
-  font-family:
-    'Quicksand',
-    'Source Sans Pro',
-    -apple-system,
-    BlinkMacSystemFont,
-    'Segoe UI',
-    Roboto,
-    'Helvetica Neue',
-    Arial,
-    sans-serif;
-  display: block;
-  font-weight: 300;
-  font-size: 20px;
-  color: #35495e;
-  letter-spacing: 1px;
+  position: absolute;
+width: 547px;
+height: 52px;
+left: 496px;
+top: 432px;
+
+font-family: Poppins;
+font-style: normal;
+font-weight: normal;
+font-size: 36px;
+line-height: 54px;
+text-align: center;
+color: #051a47;
+}
+
+.para {
+  bottom: 120px;
 }
 
 .subtitle {
-  font-weight: 300;
-  font-size: 42px;
-  color: #526488;
-  word-spacing: 5px;
-  padding-bottom: 15px;
+position: absolute;
+width: 547px;
+height: 52px;
+left: 496px;
+top: 462px;
+
+font-family: Poppins;
+font-style: normal;
+font-weight: normal;
+font-size: 36px;
+line-height: 54px;
+text-align: center;
+color: #DF2C3A;
 }
 
 .links {
