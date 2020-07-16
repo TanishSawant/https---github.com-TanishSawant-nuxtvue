@@ -1,6 +1,9 @@
 <template>
   <div class="container">
-    <h1>Main Page</h1>
+    <img class="imga" src="https://mextalki.com/LogoForWeb2.png" alt="" width="1000px" height="300px" srcset="">
+    <div class="title">
+      <h1>Sigue Aprendiendo Español</h1>
+    </div>
   </div>
 </template>
 
@@ -26,9 +29,17 @@ export default {
   margin: 0 auto;
   min-height: 100vh;
   display: flex;
+  vertical-align: 0%;
   justify-content: center;
   align-items: center;
   text-align: center;
+  flex-direction: column;
+}
+
+.imga {
+  position: relative;
+  bottom: 200px;
+  left: 100px;
 }
 
 .title {
@@ -44,7 +55,7 @@ export default {
     sans-serif;
   display: block;
   font-weight: 300;
-  font-size: 100px;
+  font-size: 20px;
   color: #35495e;
   letter-spacing: 1px;
 }

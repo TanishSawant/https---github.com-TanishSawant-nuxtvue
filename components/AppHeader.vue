@@ -1,6 +1,6 @@
 <template>
   <div class="header">
-      <h1 class="title">Dad Jokes</h1>
+      <h1 class="title">BienVenidos!</h1>
       <ul class="ul">
           <li>
               <nuxt-link to="/">Home</nuxt-link>
@@ -10,6 +10,9 @@
           </li>
           <li>
               <nuxt-link to="/about">About</nuxt-link>
+          </li>
+          <li>
+              <a href="https://www.spanishdict.com/wordoftheday" target="_blank" rel="noopener noreferrer">Word Of The Day</a>
           </li>
       </ul>
   </div>
